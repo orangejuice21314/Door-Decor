@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "oj_doors:block/doak_door_bottom",
+    "top": "oj_doors:block/doak_door_top"
+  }
+}

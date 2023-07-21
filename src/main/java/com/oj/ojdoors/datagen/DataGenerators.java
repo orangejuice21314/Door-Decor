@@ -19,5 +19,9 @@ public class DataGenerators {
 				event.includeClient(),
 			    new BlockstateGenerator(output, filehelper)
 		);
+		gen.addProvider(
+				event.includeClient(),
+			    new ItemGenerator(output, filehelper)
+		);
 	} 
 }

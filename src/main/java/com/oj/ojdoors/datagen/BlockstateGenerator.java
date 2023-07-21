@@ -16,8 +16,8 @@ public class BlockstateGenerator extends BlockStateProvider {
 	@Override
 	protected void registerStatesAndModels() {
 		doorBlock(BlockInit.DOAK_DOOR.get(), "doak_door", 
-				modLoc("block/doak_door_bottom.png"), 
-				modLoc("block/doak_door_top.png"));
+				modLoc("block/doak_door_bottom"), 
+				modLoc("block/doak_door_top"));
 	}
 
 }
