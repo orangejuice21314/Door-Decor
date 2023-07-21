@@ -15,6 +15,17 @@ public class BlockstateGenerator extends BlockStateProvider {
 
 	@Override
 	protected void registerStatesAndModels() {
+		doorBlock(BlockInit.DAROAK_DOOR.get(), "daroak_door", 
+				modLoc("block/daroak_door_bottom"), 
+				modLoc("block/daroak_door_top"));
+		doorBlock(BlockInit.CHEOAK_DOOR.get(), "cheoak_door", 
+				modLoc("block/cheoak_door_bottom"),
+				modLoc("block/cheoak_door_top"));
+		doorBlock(BlockInit.CRIOAK_DOOR.get(), "crioak_door", 
+				modLoc("block/crioak_door_bottom"), 
+				modLoc("block/crioak_door_top"));
+		
+		///////////////////////////////////////////////////////////////
 		doorBlock(BlockInit.OAKDARK_OAK_DOOR.get(), "oakdark_oak_door", 
 				modLoc("block/oakdark_oak_door_bottom"), 
 				modLoc("block/oakdark_oak_door_top"));

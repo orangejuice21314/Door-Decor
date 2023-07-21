@@ -1,5 +1,7 @@
 package com.oj.ojdoors.init;
 
+import java.util.Collection;
+
 import com.oj.ojdoors.oj_doors;
 
 import net.minecraft.world.item.BlockItem;
@@ -12,6 +14,17 @@ public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, oj_doors.MODID);
 	
 	//TODO add to proper MC tag(s) so it can smelt and stuff
+	
+	public static final RegistryObject<BlockItem> DAROAK_DOOR = ITEMS.register("daroak_door", 
+			() -> new BlockItem(BlockInit.DAROAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> CHEOAK_DOOR = ITEMS.register("cheoak_door", 
+			() -> new BlockItem(BlockInit.CHEOAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> CRIOAK_DOOR = ITEMS.register("crioak_door", 
+			() -> new BlockItem(BlockInit.CRIOAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<BlockItem> OAKDARK_OAK_DOOR = ITEMS.register("oakdark_oak_door", 
 			() -> new BlockItem(BlockInit.OAKDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
 	
@@ -38,4 +51,8 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> MANDARK_OAK_DOOR = ITEMS.register("mandark_oak_door", 
 			() -> new BlockItem(BlockInit.MANDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static Collection<RegistryObject<Item>> orderedItems() {
+		return ITEMS.getEntries();
+	}
 }
