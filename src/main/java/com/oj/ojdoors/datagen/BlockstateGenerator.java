@@ -27,6 +27,21 @@ public class BlockstateGenerator extends BlockStateProvider {
 		doorBlock(BlockInit.SPRDARK_OAK_DOOR.get(), "sprdark_oak_door", 
 				modLoc("block/sprdark_oak_door_bottom"), 
 				modLoc("block/sprdark_oak_door_top"));
+		doorBlock(BlockInit.CHEDARK_OAK_DOOR.get(), "chedark_oak_door", 
+				modLoc("block/chedark_oak_door_bottom"), 
+				modLoc("block/chedark_oak_door_top"));
+		doorBlock(BlockInit.CRIDARK_OAK_DOOR.get(), "cridark_oak_door", 
+				modLoc("block/cridark_oak_door_bottom"), 
+				modLoc("block/cridark_oak_door_top"));
+		doorBlock(BlockInit.WARDARK_OAK_DOOR.get(), "wardark_oak_door", 
+				modLoc("block/wardark_oak_door_bottom"), 
+				modLoc("block/wardark_oak_door_top"));
+		doorBlock(BlockInit.JUNDARK_OAK_DOOR.get(), "jundark_oak_door", 
+				modLoc("block/jundark_oak_door_bottom"), 
+				modLoc("block/jundark_oak_door_top"));
+		doorBlock(BlockInit.MANDARK_OAK_DOOR.get(), "mandark_oak_door", 
+				modLoc("block/mandark_oak_door_bottom"), 
+				modLoc("block/mandark_oak_door_top"));
 	}
 
 }

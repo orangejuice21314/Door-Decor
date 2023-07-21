@@ -24,4 +24,19 @@ public class BlockInit {
 	
 	public static final RegistryObject<DoorBlock> SPRDARK_OAK_DOOR = BLOCKS.register("sprdark_oak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
+
+	public static final RegistryObject<DoorBlock> CHEDARK_OAK_DOOR = BLOCKS.register("chedark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.CHERRY));
+	
+	public static final RegistryObject<DoorBlock> CRIDARK_OAK_DOOR = BLOCKS.register("cridark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.CRIMSON));
+	
+	public static final RegistryObject<DoorBlock> WARDARK_OAK_DOOR = BLOCKS.register("wardark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.WARPED_DOOR), BlockSetType.WARPED));
+	
+	public static final RegistryObject<DoorBlock> JUNDARK_OAK_DOOR = BLOCKS.register("jundark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.JUNGLE_DOOR), BlockSetType.JUNGLE));
+	
+	public static final RegistryObject<DoorBlock> MANDARK_OAK_DOOR = BLOCKS.register("mandark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
 }

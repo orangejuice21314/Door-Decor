@@ -22,6 +22,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
+//TODO
+//fix acacia dark oak door texture (it is very ugly)
+//lighten up spruce dark oak door texture
+//fix door handle for crimson dark oak door
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(oj_doors.MODID)
 public class oj_doors
@@ -34,11 +39,20 @@ public class oj_doors
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
     // Creates a creative tab with the id "examplemod:example_tab" for the example item, that is placed after the combat tab
-    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> DOOR_DECOR_TAB = CREATIVE_MODE_TABS.register(MODID, () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            //.icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
+            .icon(() -> ItemInit.OAKDARK_OAK_DOOR.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                //output.accept(EXAMPLE_ITEM.get());
+                output.accept(ItemInit.OAKDARK_OAK_DOOR.get());
+                output.accept(ItemInit.ACADARK_OAK_DOOR.get());
+                output.accept(ItemInit.CHEDARK_OAK_DOOR.get());
+                output.accept(ItemInit.CRIDARK_OAK_DOOR.get());
+                output.accept(ItemInit.MANDARK_OAK_DOOR.get());
+                output.accept(ItemInit.WARDARK_OAK_DOOR.get());
+                output.accept(ItemInit.JUNDARK_OAK_DOOR.get());
+                output.accept(ItemInit.BIRDARK_OAK_DOOR.get());
+                output.accept(ItemInit.SPRDARK_OAK_DOOR.get());
+
             }).build());
 
     public oj_doors()

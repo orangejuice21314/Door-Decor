@@ -23,4 +23,19 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> SPRDARK_OAK_DOOR = ITEMS.register("sprdark_oak_door", 
 			() -> new BlockItem(BlockInit.SPRDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> CHEDARK_OAK_DOOR = ITEMS.register("chedark_oak_door", 
+			() -> new BlockItem(BlockInit.CHEDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> CRIDARK_OAK_DOOR = ITEMS.register("cridark_oak_door", 
+			() -> new BlockItem(BlockInit.CRIDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> WARDARK_OAK_DOOR = ITEMS.register("wardark_oak_door", 
+			() -> new BlockItem(BlockInit.WARDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> JUNDARK_OAK_DOOR = ITEMS.register("jundark_oak_door", 
+			() -> new BlockItem(BlockInit.JUNDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	public static final RegistryObject<BlockItem> MANDARK_OAK_DOOR = ITEMS.register("mandark_oak_door", 
+			() -> new BlockItem(BlockInit.MANDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
 }

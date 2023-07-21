@@ -17,6 +17,11 @@ public class ItemGenerator extends ItemModelProvider{
 		basicItem(modLoc("oakdark_oak_door"));
 		basicItem(modLoc("acadark_oak_door"));
 		basicItem(modLoc("birdark_oak_door"));
-		basicItem(modLoc("sprdark_oak_door"));		
+		basicItem(modLoc("sprdark_oak_door"));	
+		basicItem(modLoc("chedark_oak_door"));
+		basicItem(modLoc("cridark_oak_door"));
+		basicItem(modLoc("wardark_oak_door"));
+		basicItem(modLoc("jundark_oak_door"));		
+		basicItem(modLoc("mandark_oak_door"));		
 	}
 }
