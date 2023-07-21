@@ -23,9 +23,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 //TODO
-//fix acacia dark oak door texture (it is very ugly)
+//fix acacia dark oak door texture (it is very ugly) // kinda did it
 //lighten up spruce dark oak door texture
-//fix door handle for crimson dark oak door
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(oj_doors.MODID)
@@ -43,6 +42,7 @@ public class oj_doors
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ItemInit.OAKDARK_OAK_DOOR.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+            	//TODO: make it so i dont have to use this many lines and can put every item in ItemInit in the door decor tab
                 output.accept(ItemInit.OAKDARK_OAK_DOOR.get());
                 output.accept(ItemInit.ACADARK_OAK_DOOR.get());
                 output.accept(ItemInit.CHEDARK_OAK_DOOR.get());
