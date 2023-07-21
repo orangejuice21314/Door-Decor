@@ -13,6 +13,15 @@ import net.minecraftforge.registries.RegistryObject;
 public class BlockInit {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, oj_doors.MODID);
 
-	public static final RegistryObject<DoorBlock> DOAK_DOOR = BLOCKS.register("doak_door",
+	public static final RegistryObject<DoorBlock> OAKDARK_OAK_DOOR = BLOCKS.register("oakdark_oak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
+	
+	public static final RegistryObject<DoorBlock> ACADARK_OAK_DOOR = BLOCKS.register("acadark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.ACACIA_DOOR), BlockSetType.ACACIA));
+	
+	public static final RegistryObject<DoorBlock> BIRDARK_OAK_DOOR = BLOCKS.register("birdark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.BIRCH_DOOR), BlockSetType.BIRCH));
+	
+	public static final RegistryObject<DoorBlock> SPRDARK_OAK_DOOR = BLOCKS.register("sprdark_oak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 }

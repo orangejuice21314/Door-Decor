@@ -14,6 +14,9 @@ public class ItemGenerator extends ItemModelProvider{
 
 	@Override
 	protected void registerModels() {
-		//basicItem(modLoc(""))
+		basicItem(modLoc("oakdark_oak_door"));
+		basicItem(modLoc("acadark_oak_door"));
+		basicItem(modLoc("birdark_oak_door"));
+		basicItem(modLoc("sprdark_oak_door"));		
 	}
 }
