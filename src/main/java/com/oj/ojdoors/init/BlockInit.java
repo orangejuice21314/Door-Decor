@@ -25,6 +25,22 @@ public class BlockInit {
 	
 	public static final RegistryObject<DoorBlock> JUNOAK_DOOR = BLOCKS.register("junoak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.JUNGLE_DOOR), BlockSetType.JUNGLE));
+	
+	public static final RegistryObject<DoorBlock> ACAOAK_DOOR = BLOCKS.register("acaoak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.ACACIA_DOOR), BlockSetType.ACACIA));
+	
+	public static final RegistryObject<DoorBlock> BIROAK_DOOR = BLOCKS.register("biroak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.BIRCH_DOOR), BlockSetType.BIRCH));
+	
+	public static final RegistryObject<DoorBlock> MANOAK_DOOR = BLOCKS.register("manoak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
+	
+	public static final RegistryObject<DoorBlock> WAROAK_DOOR = BLOCKS.register("waroak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.WARPED_DOOR), BlockSetType.WARPED));
+	
+	public static final RegistryObject<DoorBlock> SPROAK_DOOR = BLOCKS.register("sproak_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
+	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<DoorBlock> OAKDARK_OAK_DOOR = BLOCKS.register("oakdark_oak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
