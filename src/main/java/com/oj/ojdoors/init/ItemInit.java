@@ -24,6 +24,9 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> CRIOAK_DOOR = ITEMS.register("crioak_door", 
 			() -> new BlockItem(BlockInit.CRIOAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
 	
+	public static final RegistryObject<BlockItem> JUNOAK_DOOR = ITEMS.register("junoak_door", 
+			() -> new BlockItem(BlockInit.JUNOAK_DOOR.get(), new Item.Properties())); //TODO: check 
+	
 	///////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<BlockItem> OAKDARK_OAK_DOOR = ITEMS.register("oakdark_oak_door", 
 			() -> new BlockItem(BlockInit.OAKDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
