@@ -5,8 +5,10 @@ import com.oj.ojdoors.init.BlockInit;
 import com.oj.ojdoors.init.CreativeTabInit;
 import com.oj.ojdoors.init.ItemInit;
 
-import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -17,6 +19,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.RegistryObject;
+
+import java.util.Collection;
+
 import org.slf4j.Logger;
 
 //TODO
@@ -88,12 +94,14 @@ public class oj_doors
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
-        @SubscribeEvent
+        @SuppressWarnings("deprecation")
+		@SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        	Collection<RegistryObject<Block>> blocks = BlockInit.orderedItems();
+    		blocks.stream()
+				.map(RegistryObject::get)
+				.forEach(e -> ItemBlockRenderTypes.setRenderLayer(e, RenderType.cutout()));
         }
     }
     

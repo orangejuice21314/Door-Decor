@@ -1,5 +1,7 @@
 package com.oj.ojdoors.init;
 
+import java.util.Collection;
+
 import com.oj.ojdoors.oj_doors;
 
 import net.minecraft.world.level.block.Block;
@@ -68,4 +70,8 @@ public class BlockInit {
 	
 	public static final RegistryObject<DoorBlock> MANDARK_OAK_DOOR = BLOCKS.register("mandark_oak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
+	
+	public static Collection<RegistryObject<Block>> orderedItems() {
+		return BLOCKS.getEntries();
+	}
 }
