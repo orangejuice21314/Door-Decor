@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "oj_doors:customized_wooden_doors",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_planks"
+    },
+    {
+      "item": "minecraft:acacia_door"
+    }
+  ],
+  "result": {
+    "item": "oj_doors:daracacia_door"
+  }
+}

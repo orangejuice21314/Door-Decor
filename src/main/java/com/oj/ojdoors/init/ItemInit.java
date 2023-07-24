@@ -15,6 +15,7 @@ public class ItemInit {
 	
 	//TODO add to proper MC tag(s) so it can smelt and stuff
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<BlockItem> DAROAK_DOOR = ITEMS.register("daroak_door", 
 			() -> new BlockItem(BlockInit.DAROAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
 	
@@ -41,6 +42,7 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> ACAOAK_DOOR = ITEMS.register("acaoak_door", 
 			() -> new BlockItem(BlockInit.ACAOAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties 
+	
 	///////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<BlockItem> OAKDARK_OAK_DOOR = ITEMS.register("oakdark_oak_door", 
 			() -> new BlockItem(BlockInit.OAKDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
@@ -68,6 +70,34 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> MANDARK_OAK_DOOR = ITEMS.register("mandark_oak_door", 
 			() -> new BlockItem(BlockInit.MANDARK_OAK_DOOR.get(), new Item.Properties())); //TODO: check if i can copy oak door item properties
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARACACIA_DOOR = ITEMS.register("daracacia_door", 
+			() -> new BlockItem(BlockInit.DARACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties
+	
+	public static final RegistryObject<BlockItem> CHEACACIA_DOOR = ITEMS.register("cheacacia_door", 
+			() -> new BlockItem(BlockInit.CHEACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties
+	
+	public static final RegistryObject<BlockItem> CRIACACIA_DOOR = ITEMS.register("criacacia_door", 
+			() -> new BlockItem(BlockInit.CRIACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties
+	
+	public static final RegistryObject<BlockItem> JUNACACIA_DOOR = ITEMS.register("junacacia_door", 
+			() -> new BlockItem(BlockInit.JUNACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties 
+
+	public static final RegistryObject<BlockItem> BIRACACIA_DOOR = ITEMS.register("biracacia_door", 
+			() -> new BlockItem(BlockInit.BIRACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties
+	
+	public static final RegistryObject<BlockItem> MANACACIA_DOOR = ITEMS.register("manacacia_door", 
+			() -> new BlockItem(BlockInit.MANACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties 
+	
+	public static final RegistryObject<BlockItem> WARACACIA_DOOR = ITEMS.register("waracacia_door", 
+			() -> new BlockItem(BlockInit.WARACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties
+	
+	public static final RegistryObject<BlockItem> SPRACACIA_DOOR = ITEMS.register("spracacia_door", 
+			() -> new BlockItem(BlockInit.SPRACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties 
+	
+	public static final RegistryObject<BlockItem> OAKACACIA_DOOR = ITEMS.register("oakacacia_door", 
+			() -> new BlockItem(BlockInit.OAKACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties 
 	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();

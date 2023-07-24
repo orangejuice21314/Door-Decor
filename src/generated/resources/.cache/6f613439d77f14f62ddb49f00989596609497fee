@@ -1,19 +1,28 @@
-// 1.20.1	2023-07-22T16:36:35.117216	Item Models: oj_doors
+// 1.20.1	2023-07-24T15:06:18.1897007	Item Models: oj_doors
 22a92fb423830435befa4063d67fe9cec8a4d3db assets/oj_doors/models/item/acadark_oak_door.json
 aa9e069b05a6c70e3292b1f28f8f55686f7b2dcd assets/oj_doors/models/item/acaoak_door.json
+607c011cebcf57f7d15f0f53c74f57aadcc41fe7 assets/oj_doors/models/item/biracacia_door.json
 f18775572cb14bc3b15aa8aba595accfefc6adc5 assets/oj_doors/models/item/birdark_oak_door.json
 a55d373597d885b79891f09a64b13c9f117d5988 assets/oj_doors/models/item/biroak_door.json
+b9dca08af4525030ce8c8b2cbeee2b497ec4b743 assets/oj_doors/models/item/cheacacia_door.json
 7ebd82eeced84fe31b750f17241683d5f04886fc assets/oj_doors/models/item/chedark_oak_door.json
 543268bd7aefd2e13fa7b242d84b1de9c866f0cc assets/oj_doors/models/item/cheoak_door.json
+2fc0465dc094f05c39e0e067de6c2c55b4a2b0cd assets/oj_doors/models/item/criacacia_door.json
 b47cf83bac4885e1db56a5fb3833faee9e7eef31 assets/oj_doors/models/item/cridark_oak_door.json
 978304eb7ea4d69e7193b146a4ea4632d413b055 assets/oj_doors/models/item/crioak_door.json
+6251cb0285f20b83b9a964e7faaee8bf76e2b77d assets/oj_doors/models/item/daracacia_door.json
 9011ca1413e5ec8430680e2a18e00bfa6c6c88e3 assets/oj_doors/models/item/daroak_door.json
+d852ebd21a1e3c9201e50d1c8b45d17cef92e6f2 assets/oj_doors/models/item/junacacia_door.json
 3efdc79059a5c5514ea260de3ae4046803b19fe2 assets/oj_doors/models/item/jundark_oak_door.json
 f148ef480aacd2ef9faf46f057fa04fe9143947c assets/oj_doors/models/item/junoak_door.json
+12368f32c6adaddcad96882c67b0548a7bf7a3ce assets/oj_doors/models/item/manacacia_door.json
 da143f34f72d4bb03ab9f74d83f3116b1d425a88 assets/oj_doors/models/item/mandark_oak_door.json
 343920f9d8d018136d01ca9ca02272331ab984c5 assets/oj_doors/models/item/manoak_door.json
+dc0373fec94dd486ea5018c9e8215bb5c9bfb62d assets/oj_doors/models/item/oakacacia_door.json
 607aca438cb9f32f65e7e388840b594460e21cfe assets/oj_doors/models/item/oakdark_oak_door.json
+bbce7d9b428b3be953dba6dc29f8a2baa424b722 assets/oj_doors/models/item/spracacia_door.json
 c592984f06523376f92342e688b1bd6c250a8507 assets/oj_doors/models/item/sprdark_oak_door.json
 d2fe1bb9165dece76608ed6dbc663c69bf1b68ef assets/oj_doors/models/item/sproak_door.json
+129fbed4dc61114e7367fa117a5330da91e769c9 assets/oj_doors/models/item/waracacia_door.json
 41794e7c09aa756b26b715d0d0e7509645dfb3b7 assets/oj_doors/models/item/wardark_oak_door.json
 464d94f6162c603f9949e5ea90278f8b6e81d1d9 assets/oj_doors/models/item/waroak_door.json

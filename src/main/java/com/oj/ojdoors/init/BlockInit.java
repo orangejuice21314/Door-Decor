@@ -17,13 +17,13 @@ public class BlockInit {
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<DoorBlock> DAROAK_DOOR = BLOCKS.register("daroak_door",
-			() -> new DoorBlock(Block.Properties.copy(Blocks.DARK_OAK_DOOR), BlockSetType.WARPED));
+			() -> new DoorBlock(Block.Properties.copy(Blocks.DARK_OAK_DOOR), BlockSetType.DARK_OAK));
 	
 	public static final RegistryObject<DoorBlock> CHEOAK_DOOR = BLOCKS.register("cheoak_door",
-			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.JUNGLE));
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.CHERRY));
 	
 	public static final RegistryObject<DoorBlock> CRIOAK_DOOR = BLOCKS.register("crioak_door",
-			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.MANGROVE));
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.CRIMSON));
 	
 	public static final RegistryObject<DoorBlock> JUNOAK_DOOR = BLOCKS.register("junoak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.JUNGLE_DOOR), BlockSetType.JUNGLE));
@@ -70,6 +70,34 @@ public class BlockInit {
 	
 	public static final RegistryObject<DoorBlock> MANDARK_OAK_DOOR = BLOCKS.register("mandark_oak_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<DoorBlock> DARACACIA_DOOR = BLOCKS.register("daracacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.DARK_OAK_DOOR), BlockSetType.DARK_OAK));
+	
+	public static final RegistryObject<DoorBlock> CHEACACIA_DOOR = BLOCKS.register("cheacacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.CHERRY));
+	
+	public static final RegistryObject<DoorBlock> CRIACACIA_DOOR = BLOCKS.register("criacacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.CRIMSON));
+	
+	public static final RegistryObject<DoorBlock> JUNACACIA_DOOR = BLOCKS.register("junacacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.JUNGLE_DOOR), BlockSetType.JUNGLE));
+	
+	public static final RegistryObject<DoorBlock> OAKACACIA_DOOR = BLOCKS.register("oakacacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
+	
+	public static final RegistryObject<DoorBlock> BIRACACIA_DOOR = BLOCKS.register("biracacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.BIRCH_DOOR), BlockSetType.BIRCH));
+	
+	public static final RegistryObject<DoorBlock> MANACACIA_DOOR = BLOCKS.register("manacacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
+	
+	public static final RegistryObject<DoorBlock> WARACACIA_DOOR = BLOCKS.register("waracacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.WARPED_DOOR), BlockSetType.WARPED));
+	
+	public static final RegistryObject<DoorBlock> SPRACACIA_DOOR = BLOCKS.register("spracacia_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 	
 	public static Collection<RegistryObject<Block>> orderedItems() {
 		return BLOCKS.getEntries();
