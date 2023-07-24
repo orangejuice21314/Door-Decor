@@ -1,11 +1,16 @@
 package com.oj.ojdoors.datagen;
 
+import java.util.Collection;
+
 import com.oj.ojdoors.oj_doors;
 import com.oj.ojdoors.init.BlockInit;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DoorBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.RegistryObject;
 
 public class BlockstateGenerator extends BlockStateProvider {
 
@@ -14,63 +19,18 @@ public class BlockstateGenerator extends BlockStateProvider {
 	}
 
 	@Override
-	protected void registerStatesAndModels() {
-		doorBlock(BlockInit.DAROAK_DOOR.get(), "daroak_door", 
-				modLoc("block/daroak_door_bottom"), 
-				modLoc("block/daroak_door_top"));
-		doorBlock(BlockInit.CHEOAK_DOOR.get(), "cheoak_door", 
-				modLoc("block/cheoak_door_bottom"),
-				modLoc("block/cheoak_door_top"));
-		doorBlock(BlockInit.CRIOAK_DOOR.get(), "crioak_door", 
-				modLoc("block/crioak_door_bottom"), 
-				modLoc("block/crioak_door_top"));
-		doorBlock(BlockInit.JUNOAK_DOOR.get(), "junoak_door", 
-				modLoc("block/junoak_door_bottom"), 
-				modLoc("block/junoak_door_top"));
-		doorBlock(BlockInit.ACAOAK_DOOR.get(), "acaoak_door", 
-				modLoc("block/acaoak_door_bottom"), 
-				modLoc("block/acaoak_door_top"));
-		doorBlock(BlockInit.BIROAK_DOOR.get(), "biroak_door", 
-				modLoc("block/biroak_door_bottom"), 
-				modLoc("block/biroak_door_top"));
-		doorBlock(BlockInit.WAROAK_DOOR.get(), "waroak_door", 
-				modLoc("block/waroak_door_bottom"), 
-				modLoc("block/waroak_door_top"));
-		doorBlock(BlockInit.MANOAK_DOOR.get(), "manoak_door", 
-				modLoc("block/manoak_door_bottom"), 
-				modLoc("block/manoak_door_top"));
-		doorBlock(BlockInit.SPROAK_DOOR.get(), "sproak_door", 
-				modLoc("block/sproak_door_bottom"), 
-				modLoc("block/sproak_door_top"));
-
-		///////////////////////////////////////////////////////////////
-		doorBlock(BlockInit.OAKDARK_OAK_DOOR.get(), "oakdark_oak_door", 
-				modLoc("block/oakdark_oak_door_bottom"), 
-				modLoc("block/oakdark_oak_door_top"));
-		doorBlock(BlockInit.ACADARK_OAK_DOOR.get(), "acadark_oak_door", 
-				modLoc("block/acadark_oak_door_bottom"), 
-				modLoc("block/acadark_oak_door_top"));
-		doorBlock(BlockInit.BIRDARK_OAK_DOOR.get(), "birdark_oak_door", 
-				modLoc("block/birdark_oak_door_bottom"), 
-				modLoc("block/birdark_oak_door_top"));
-		doorBlock(BlockInit.SPRDARK_OAK_DOOR.get(), "sprdark_oak_door", 
-				modLoc("block/sprdark_oak_door_bottom"), 
-				modLoc("block/sprdark_oak_door_top"));
-		doorBlock(BlockInit.CHEDARK_OAK_DOOR.get(), "chedark_oak_door", 
-				modLoc("block/chedark_oak_door_bottom"), 
-				modLoc("block/chedark_oak_door_top"));
-		doorBlock(BlockInit.CRIDARK_OAK_DOOR.get(), "cridark_oak_door", 
-				modLoc("block/cridark_oak_door_bottom"), 
-				modLoc("block/cridark_oak_door_top"));
-		doorBlock(BlockInit.WARDARK_OAK_DOOR.get(), "wardark_oak_door", 
-				modLoc("block/wardark_oak_door_bottom"), 
-				modLoc("block/wardark_oak_door_top"));
-		doorBlock(BlockInit.JUNDARK_OAK_DOOR.get(), "jundark_oak_door", 
-				modLoc("block/jundark_oak_door_bottom"), 
-				modLoc("block/jundark_oak_door_top"));
-		doorBlock(BlockInit.MANDARK_OAK_DOOR.get(), "mandark_oak_door", 
-				modLoc("block/mandark_oak_door_bottom"), 
-				modLoc("block/mandark_oak_door_top"));
+	protected void registerStatesAndModels() {	
+    	Collection<RegistryObject<Block>> blocks = BlockInit.orderedItems();
+		blocks.stream()
+			.forEach(
+					e -> {
+						String design = e.getId().toString().substring(9,12);
+						String mcDoor = e.getId().toString().substring(12);
+						
+						doorBlock((DoorBlock) e.get(), design+mcDoor, 
+								modLoc("block/"+design+mcDoor+"_bottom"), 
+								modLoc("block/"+design+mcDoor+"_top"));
+					});
 	}
 
 }
