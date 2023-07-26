@@ -99,6 +99,34 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> OAKACACIA_DOOR = ITEMS.register("oakacacia_door", 
 			() -> new BlockItem(BlockInit.OAKACACIA_DOOR.get(), new Item.Properties())); //TODO: check if i can copy acacia door item properties 
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARJUNGLE_DOOR = ITEMS.register("darjungle_door", 
+			() -> new BlockItem(BlockInit.DARJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties
+	
+	public static final RegistryObject<BlockItem> CHEJUNGLE_DOOR = ITEMS.register("chejungle_door", 
+			() -> new BlockItem(BlockInit.CHEJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties
+	
+	public static final RegistryObject<BlockItem> CRIJUNGLE_DOOR = ITEMS.register("crijungle_door", 
+			() -> new BlockItem(BlockInit.CRIJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties
+	
+	public static final RegistryObject<BlockItem> JUNJUNGLE_DOOR = ITEMS.register("acajungle_door", 
+			() -> new BlockItem(BlockInit.ACAJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties 
+
+	public static final RegistryObject<BlockItem> BIRJUNGLE_DOOR = ITEMS.register("birjungle_door", 
+			() -> new BlockItem(BlockInit.BIRJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties
+	
+	public static final RegistryObject<BlockItem> MANJUNGLE_DOOR = ITEMS.register("manjungle_door", 
+			() -> new BlockItem(BlockInit.MANJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties 
+	
+	public static final RegistryObject<BlockItem> WARJUNGLE_DOOR = ITEMS.register("warjungle_door", 
+			() -> new BlockItem(BlockInit.WARJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties
+	
+	public static final RegistryObject<BlockItem> SPRJUNGLE_DOOR = ITEMS.register("sprjungle_door", 
+			() -> new BlockItem(BlockInit.SPRJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties 
+	
+	public static final RegistryObject<BlockItem> OAKJUNGLE_DOOR = ITEMS.register("oakjungle_door", 
+			() -> new BlockItem(BlockInit.OAKJUNGLE_DOOR.get(), new Item.Properties())); //TODO: check if i can copy jungle door item properties 
+	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();
 	}

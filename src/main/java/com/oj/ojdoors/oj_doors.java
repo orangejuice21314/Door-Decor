@@ -28,7 +28,7 @@ import org.slf4j.Logger;
 //TODO
 //fix acacia dark oak door texture (it is very ugly) // kinda did it still needs work
 //fix crimson oak door handle on texture (it is very ugly)
-//add render cut out whatever for new doors that have transparent aspects to their textures
+//fix birch and acacia jungle door (they are very ugly) and add the correct handle and hinge colors
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(oj_doors.MODID)

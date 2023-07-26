@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "oj_doors:customized_wooden_doors",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_planks"
+    },
+    {
+      "item": "minecraft:jungle_door"
+    }
+  ],
+  "result": {
+    "item": "oj_doors:warjungle_door"
+  }
+}
