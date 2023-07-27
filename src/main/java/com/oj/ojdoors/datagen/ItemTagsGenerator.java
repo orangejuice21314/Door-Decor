@@ -20,7 +20,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ItemTagsGenerator extends ItemTagsProvider  {
-
+	
 	public ItemTagsGenerator(final PackOutput output, final CompletableFuture<HolderLookup.Provider> lookupProvider,
 			final CompletableFuture<TagsProvider.TagLookup<Block>> blockTags,
 			@Nullable final ExistingFileHelper existingFileHelper) {

@@ -29,6 +29,7 @@ import org.slf4j.Logger;
 //fix acacia dark oak door texture (it is very ugly) // kinda did it still needs work
 //fix crimson oak door handle on texture (it is very ugly)
 //fix birch and acacia jungle door (they are very ugly) and add the correct handle and hinge colors
+//the doors arent flammable, however they do burn in furnaces
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(oj_doors.MODID)

@@ -32,11 +32,11 @@ public class DataGenerators {
 		final var blockTagsGenerator = new BlockTagsGenerator(output, lookupProvider, filehelper);
 		gen.addProvider(
 				event.includeServer(),
-			    new ItemTagsGenerator(output, lookupProvider, blockTagsGenerator.contentsGetter(), filehelper)
+			    blockTagsGenerator
 		);
 		gen.addProvider(
 				event.includeServer(),
-			    blockTagsGenerator
+			    new ItemTagsGenerator(output, lookupProvider, blockTagsGenerator.contentsGetter(), filehelper)
 		);
 	} 
 }
