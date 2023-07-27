@@ -15,6 +15,8 @@ public class DataGenerators {
 		final DataGenerator gen = event.getGenerator();
 		final ExistingFileHelper filehelper = event.getExistingFileHelper();
 		final PackOutput output = gen.getPackOutput(); 
+		final var lookupProvider = event.getLookupProvider();
+		
 		gen.addProvider(
 				event.includeClient(),
 			    new BlockstateGenerator(output, filehelper)
@@ -24,8 +26,17 @@ public class DataGenerators {
 			    new ItemGenerator(output, filehelper)
 		);
 		gen.addProvider(
-				event.includeClient(),
+				event.includeServer(),
 			    new RecipeGenerator(output)
+		);
+		final var blockTagsGenerator = new BlockTagsGenerator(output, lookupProvider, filehelper);
+		gen.addProvider(
+				event.includeServer(),
+			    new ItemTagsGenerator(output, lookupProvider, blockTagsGenerator.contentsGetter(), filehelper)
+		);
+		gen.addProvider(
+				event.includeServer(),
+			    blockTagsGenerator
 		);
 	} 
 }
