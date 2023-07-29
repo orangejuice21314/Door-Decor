@@ -127,6 +127,35 @@ public class BlockInit {
 	public static final RegistryObject<DoorBlock> SPRJUNGLE_DOOR = BLOCKS.register("sprjungle_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<DoorBlock> DARCHERRY_DOOR = BLOCKS.register("darcherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.DARK_OAK_DOOR), BlockSetType.DARK_OAK));
+	
+	public static final RegistryObject<DoorBlock> JUNCHERRY_DOOR = BLOCKS.register("juncherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.JUNGLE));
+	
+	public static final RegistryObject<DoorBlock> CRICHERRY_DOOR = BLOCKS.register("cricherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.CRIMSON));
+	
+	public static final RegistryObject<DoorBlock> ACACHERRY_DOOR = BLOCKS.register("acacherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.ACACIA_DOOR), BlockSetType.ACACIA));
+	
+	public static final RegistryObject<DoorBlock> OAKCHERRY_DOOR = BLOCKS.register("oakcherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
+	
+	public static final RegistryObject<DoorBlock> BIRCHERRY_DOOR = BLOCKS.register("bircherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.BIRCH_DOOR), BlockSetType.BIRCH));
+	
+	public static final RegistryObject<DoorBlock> MANCHERRY_DOOR = BLOCKS.register("mancherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
+	
+	public static final RegistryObject<DoorBlock> WARCHERRY_DOOR = BLOCKS.register("warcherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.WARPED_DOOR), BlockSetType.WARPED));
+	
+	public static final RegistryObject<DoorBlock> SPRCHERRY_DOOR = BLOCKS.register("sprcherry_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
+	
+	
 	public static Collection<RegistryObject<Block>> orderedItems() {
 		return BLOCKS.getEntries();
 	}

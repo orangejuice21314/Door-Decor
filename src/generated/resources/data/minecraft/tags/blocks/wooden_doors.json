@@ -35,6 +35,15 @@
     "oj_doors:birjungle_door",
     "oj_doors:manjungle_door",
     "oj_doors:warjungle_door",
-    "oj_doors:sprjungle_door"
+    "oj_doors:sprjungle_door",
+    "oj_doors:darcherry_door",
+    "oj_doors:juncherry_door",
+    "oj_doors:cricherry_door",
+    "oj_doors:acacherry_door",
+    "oj_doors:oakcherry_door",
+    "oj_doors:bircherry_door",
+    "oj_doors:mancherry_door",
+    "oj_doors:warcherry_door",
+    "oj_doors:sprcherry_door"
   ]
 }
