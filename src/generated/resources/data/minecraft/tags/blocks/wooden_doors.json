@@ -53,6 +53,15 @@
     "oj_doors:chebirch_door",
     "oj_doors:manbirch_door",
     "oj_doors:warbirch_door",
-    "oj_doors:sprbirch_door"
+    "oj_doors:sprbirch_door",
+    "oj_doors:darcrimson_door",
+    "oj_doors:juncrimson_door",
+    "oj_doors:bircrimson_door",
+    "oj_doors:acacrimson_door",
+    "oj_doors:oakcrimson_door",
+    "oj_doors:checrimson_door",
+    "oj_doors:mancrimson_door",
+    "oj_doors:warcrimson_door",
+    "oj_doors:sprcrimson_door"
   ]
 }

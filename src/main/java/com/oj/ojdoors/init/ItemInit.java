@@ -183,6 +183,34 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> OAKBIRCH_DOOR = ITEMS.register("oakbirch_door", 
 			() -> new BlockItem(BlockInit.OAKBIRCH_DOOR.get(), new Item.Properties())); 
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARCRIMSON_DOOR = ITEMS.register("darcrimson_door", 
+			() -> new BlockItem(BlockInit.DARCRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> JUNCRIMSON_DOOR = ITEMS.register("juncrimson_door", 
+			() -> new BlockItem(BlockInit.JUNCRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> BIRCRIMSON_DOOR = ITEMS.register("bircrimson_door", 
+			() -> new BlockItem(BlockInit.BIRCRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> ACACRIMSON_DOOR = ITEMS.register("acacrimson_door", 
+			() -> new BlockItem(BlockInit.ACACRIMSON_DOOR.get(), new Item.Properties())); 
+
+	public static final RegistryObject<BlockItem> CHERCRIMSON_DOOR = ITEMS.register("checrimson_door", 
+			() -> new BlockItem(BlockInit.CHECRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> MANCRIMSON_DOOR = ITEMS.register("mancrimson_door", 
+			() -> new BlockItem(BlockInit.MANCRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> WARCRIMSON_DOOR = ITEMS.register("warcrimson_door", 
+			() -> new BlockItem(BlockInit.WARCRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> SPRCRIMSON_DOOR = ITEMS.register("sprcrimson_door", 
+			() -> new BlockItem(BlockInit.SPRCRIMSON_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> OAKCRIMSON_DOOR = ITEMS.register("oakcrimson_door", 
+			() -> new BlockItem(BlockInit.OAKCRIMSON_DOOR.get(), new Item.Properties())); 
+	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();
 	}
