@@ -30,6 +30,7 @@ import org.slf4j.Logger;
 //fix crimson oak door handle on texture (it is very ugly)
 //fix birch and acacia jungle door (they are very ugly) and add the correct handle and hinge colors
 //fix visible color split in middle of birch jungle door
+//fix handle area on acacia birch door
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(oj_doors.MODID)

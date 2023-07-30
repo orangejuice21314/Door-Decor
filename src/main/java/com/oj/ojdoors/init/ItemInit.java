@@ -155,6 +155,34 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> OAKCHERRY_DOOR = ITEMS.register("oakcherry_door", 
 			() -> new BlockItem(BlockInit.OAKCHERRY_DOOR.get(), new Item.Properties())); 
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARBIRCH_DOOR = ITEMS.register("darbirch_door", 
+			() -> new BlockItem(BlockInit.DARBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> JUNBIRCH_DOOR = ITEMS.register("junbirch_door", 
+			() -> new BlockItem(BlockInit.JUNBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> CRIBIRCH_DOOR = ITEMS.register("cribirch_door", 
+			() -> new BlockItem(BlockInit.CRIBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> ACABIRCH_DOOR = ITEMS.register("acabirch_door", 
+			() -> new BlockItem(BlockInit.ACABIRCH_DOOR.get(), new Item.Properties())); 
+
+	public static final RegistryObject<BlockItem> CHERBIRCH_DOOR = ITEMS.register("chebirch_door", 
+			() -> new BlockItem(BlockInit.CHEBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> MANBIRCH_DOOR = ITEMS.register("manbirch_door", 
+			() -> new BlockItem(BlockInit.MANBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> WARBIRCH_DOOR = ITEMS.register("warbirch_door", 
+			() -> new BlockItem(BlockInit.WARBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> SPRBIRCH_DOOR = ITEMS.register("sprbirch_door", 
+			() -> new BlockItem(BlockInit.SPRBIRCH_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> OAKBIRCH_DOOR = ITEMS.register("oakbirch_door", 
+			() -> new BlockItem(BlockInit.OAKBIRCH_DOOR.get(), new Item.Properties())); 
+	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();
 	}

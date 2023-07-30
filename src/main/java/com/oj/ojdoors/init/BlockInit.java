@@ -155,6 +155,33 @@ public class BlockInit {
 	public static final RegistryObject<DoorBlock> SPRCHERRY_DOOR = BLOCKS.register("sprcherry_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<DoorBlock> DARBIRCH_DOOR = BLOCKS.register("darbirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.DARK_OAK_DOOR), BlockSetType.DARK_OAK));
+	
+	public static final RegistryObject<DoorBlock> JUNBIRCH_DOOR = BLOCKS.register("junbirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.BIRCH_DOOR), BlockSetType.JUNGLE));
+	
+	public static final RegistryObject<DoorBlock> CRIBIRCH_DOOR = BLOCKS.register("cribirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.CRIMSON));
+	
+	public static final RegistryObject<DoorBlock> ACABIRCH_DOOR = BLOCKS.register("acabirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.ACACIA_DOOR), BlockSetType.ACACIA));
+	
+	public static final RegistryObject<DoorBlock> OAKBIRCH_DOOR = BLOCKS.register("oakbirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
+	
+	public static final RegistryObject<DoorBlock> CHEBIRCH_DOOR = BLOCKS.register("chebirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.CHERRY));
+	
+	public static final RegistryObject<DoorBlock> MANBIRCH_DOOR = BLOCKS.register("manbirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.MANGROVE));
+	
+	public static final RegistryObject<DoorBlock> WARBIRCH_DOOR = BLOCKS.register("warbirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.WARPED_DOOR), BlockSetType.WARPED));
+	
+	public static final RegistryObject<DoorBlock> SPRBIRCH_DOOR = BLOCKS.register("sprbirch_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 	
 	public static Collection<RegistryObject<Block>> orderedItems() {
 		return BLOCKS.getEntries();

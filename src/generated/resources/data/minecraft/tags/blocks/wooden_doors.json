@@ -44,6 +44,15 @@
     "oj_doors:bircherry_door",
     "oj_doors:mancherry_door",
     "oj_doors:warcherry_door",
-    "oj_doors:sprcherry_door"
+    "oj_doors:sprcherry_door",
+    "oj_doors:darbirch_door",
+    "oj_doors:junbirch_door",
+    "oj_doors:cribirch_door",
+    "oj_doors:acabirch_door",
+    "oj_doors:oakbirch_door",
+    "oj_doors:chebirch_door",
+    "oj_doors:manbirch_door",
+    "oj_doors:warbirch_door",
+    "oj_doors:sprbirch_door"
   ]
 }
