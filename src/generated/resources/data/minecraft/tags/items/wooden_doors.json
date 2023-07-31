@@ -62,6 +62,15 @@
     "oj_doors:mancrimson_door",
     "oj_doors:warcrimson_door",
     "oj_doors:sprcrimson_door",
-    "oj_doors:oakcrimson_door"
+    "oj_doors:oakcrimson_door",
+    "oj_doors:darwarped_door",
+    "oj_doors:junwarped_door",
+    "oj_doors:birwarped_door",
+    "oj_doors:acawarped_door",
+    "oj_doors:chewarped_door",
+    "oj_doors:manwarped_door",
+    "oj_doors:criwarped_door",
+    "oj_doors:sprwarped_door",
+    "oj_doors:oakwarped_door"
   ]
 }

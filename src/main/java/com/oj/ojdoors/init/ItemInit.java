@@ -211,6 +211,35 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> OAKCRIMSON_DOOR = ITEMS.register("oakcrimson_door", 
 			() -> new BlockItem(BlockInit.OAKCRIMSON_DOOR.get(), new Item.Properties())); 
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARWARPED_DOOR = ITEMS.register("darwarped_door", 
+			() -> new BlockItem(BlockInit.DARWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> JUNWARPED_DOOR = ITEMS.register("junwarped_door", 
+			() -> new BlockItem(BlockInit.JUNWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> BIRWARPED_DOOR = ITEMS.register("birwarped_door", 
+			() -> new BlockItem(BlockInit.BIRWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> ACAWARPED_DOOR = ITEMS.register("acawarped_door", 
+			() -> new BlockItem(BlockInit.ACAWARPED_DOOR.get(), new Item.Properties())); 
+
+	public static final RegistryObject<BlockItem> CHERWARPED_DOOR = ITEMS.register("chewarped_door", 
+			() -> new BlockItem(BlockInit.CHEWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> MANWARPED_DOOR = ITEMS.register("manwarped_door", 
+			() -> new BlockItem(BlockInit.MANWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> CRIWARPED_DOOR = ITEMS.register("criwarped_door", 
+			() -> new BlockItem(BlockInit.CRIWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> SPRWARPED_DOOR = ITEMS.register("sprwarped_door", 
+			() -> new BlockItem(BlockInit.SPRWARPED_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> OAKWARPED_DOOR = ITEMS.register("oakwarped_door", 
+			() -> new BlockItem(BlockInit.OAKWARPED_DOOR.get(), new Item.Properties())); 
+	
+	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();
 	}
