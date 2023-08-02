@@ -239,7 +239,33 @@ public class BlockInit {
 	public static final RegistryObject<DoorBlock> SPRWARPED_DOOR = BLOCKS.register("sprwarped_door",
 			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 	
-
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<DoorBlock> DARMANGROVE_DOOR = BLOCKS.register("darmangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.DARK_OAK_DOOR), BlockSetType.DARK_OAK));
+	
+	public static final RegistryObject<DoorBlock> JUNMANGROVE_DOOR = BLOCKS.register("junmangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.MANGROVE_DOOR), BlockSetType.JUNGLE));
+	
+	public static final RegistryObject<DoorBlock> BIRMANGROVE_DOOR = BLOCKS.register("birmangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.BIRCH_DOOR), BlockSetType.BIRCH));
+	
+	public static final RegistryObject<DoorBlock> ACAMANGROVE_DOOR = BLOCKS.register("acamangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.ACACIA_DOOR), BlockSetType.ACACIA));
+	
+	public static final RegistryObject<DoorBlock> OAKMANGROVE_DOOR = BLOCKS.register("oakmangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
+	
+	public static final RegistryObject<DoorBlock> CHEMANGROVE_DOOR = BLOCKS.register("chemangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CHERRY_DOOR), BlockSetType.CHERRY));
+	
+	public static final RegistryObject<DoorBlock> WARMANGROVE_DOOR = BLOCKS.register("warmangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.WARPED_DOOR), BlockSetType.WARPED));
+	
+	public static final RegistryObject<DoorBlock> CRIMANGROVE_DOOR = BLOCKS.register("crimangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.CRIMSON_DOOR), BlockSetType.CRIMSON));
+	
+	public static final RegistryObject<DoorBlock> SPRMANGROVE_DOOR = BLOCKS.register("sprmangrove_door",
+			() -> new DoorBlock(Block.Properties.copy(Blocks.SPRUCE_DOOR), BlockSetType.SPRUCE));
 	
 	
 	public static Collection<RegistryObject<Block>> orderedItems() {

@@ -71,6 +71,15 @@
     "oj_doors:chewarped_door",
     "oj_doors:manwarped_door",
     "oj_doors:criwarped_door",
-    "oj_doors:sprwarped_door"
+    "oj_doors:sprwarped_door",
+    "oj_doors:darmangrove_door",
+    "oj_doors:junmangrove_door",
+    "oj_doors:birmangrove_door",
+    "oj_doors:acamangrove_door",
+    "oj_doors:oakmangrove_door",
+    "oj_doors:chemangrove_door",
+    "oj_doors:warmangrove_door",
+    "oj_doors:crimangrove_door",
+    "oj_doors:sprmangrove_door"
   ]
 }

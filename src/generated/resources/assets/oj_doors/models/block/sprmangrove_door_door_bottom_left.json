@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "oj_doors:block/sprmangrove_door_bottom",
+    "top": "oj_doors:block/sprmangrove_door_top"
+  }
+}

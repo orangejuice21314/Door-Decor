@@ -239,6 +239,33 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> OAKWARPED_DOOR = ITEMS.register("oakwarped_door", 
 			() -> new BlockItem(BlockInit.OAKWARPED_DOOR.get(), new Item.Properties())); 
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARMANGROVE_DOOR = ITEMS.register("darmangrove_door", 
+			() -> new BlockItem(BlockInit.DARMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> JUNMANGROVE_DOOR = ITEMS.register("junmangrove_door", 
+			() -> new BlockItem(BlockInit.JUNMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> BIRMANGROVE_DOOR = ITEMS.register("birmangrove_door", 
+			() -> new BlockItem(BlockInit.BIRMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> ACAMANGROVE_DOOR = ITEMS.register("acamangrove_door", 
+			() -> new BlockItem(BlockInit.ACAMANGROVE_DOOR.get(), new Item.Properties())); 
+
+	public static final RegistryObject<BlockItem> CHERMANGROVE_DOOR = ITEMS.register("chemangrove_door", 
+			() -> new BlockItem(BlockInit.CHEMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> WARMANGROVE_DOOR = ITEMS.register("warmangrove_door", 
+			() -> new BlockItem(BlockInit.WARMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> CRIMANGROVE_DOOR = ITEMS.register("crimangrove_door", 
+			() -> new BlockItem(BlockInit.CRIMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> SPRMANGROVE_DOOR = ITEMS.register("sprmangrove_door", 
+			() -> new BlockItem(BlockInit.SPRMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> OAKMANGROVE_DOOR = ITEMS.register("oakmangrove_door", 
+			() -> new BlockItem(BlockInit.OAKMANGROVE_DOOR.get(), new Item.Properties())); 
 	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();
