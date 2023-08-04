@@ -224,7 +224,7 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> ACAWARPED_DOOR = ITEMS.register("acawarped_door", 
 			() -> new BlockItem(BlockInit.ACAWARPED_DOOR.get(), new Item.Properties())); 
 
-	public static final RegistryObject<BlockItem> CHERWARPED_DOOR = ITEMS.register("chewarped_door", 
+	public static final RegistryObject<BlockItem> CHEWARPED_DOOR = ITEMS.register("chewarped_door", 
 			() -> new BlockItem(BlockInit.CHEWARPED_DOOR.get(), new Item.Properties())); 
 	
 	public static final RegistryObject<BlockItem> MANWARPED_DOOR = ITEMS.register("manwarped_door", 
@@ -252,7 +252,7 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> ACAMANGROVE_DOOR = ITEMS.register("acamangrove_door", 
 			() -> new BlockItem(BlockInit.ACAMANGROVE_DOOR.get(), new Item.Properties())); 
 
-	public static final RegistryObject<BlockItem> CHERMANGROVE_DOOR = ITEMS.register("chemangrove_door", 
+	public static final RegistryObject<BlockItem> CHEMANGROVE_DOOR = ITEMS.register("chemangrove_door", 
 			() -> new BlockItem(BlockInit.CHEMANGROVE_DOOR.get(), new Item.Properties())); 
 	
 	public static final RegistryObject<BlockItem> WARMANGROVE_DOOR = ITEMS.register("warmangrove_door", 
@@ -266,6 +266,35 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> OAKMANGROVE_DOOR = ITEMS.register("oakmangrove_door", 
 			() -> new BlockItem(BlockInit.OAKMANGROVE_DOOR.get(), new Item.Properties())); 
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	public static final RegistryObject<BlockItem> DARSPRUCE_DOOR = ITEMS.register("darspruce_door", 
+			() -> new BlockItem(BlockInit.DARSPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> JUNSPRUCE_DOOR = ITEMS.register("junspruce_door", 
+			() -> new BlockItem(BlockInit.JUNSPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> BIRSPRUCE_DOOR = ITEMS.register("birspruce_door", 
+			() -> new BlockItem(BlockInit.BIRSPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> ACASPRUCE_DOOR = ITEMS.register("acaspruce_door", 
+			() -> new BlockItem(BlockInit.ACASPRUCE_DOOR.get(), new Item.Properties())); 
+
+	public static final RegistryObject<BlockItem> CHESPRUCE_DOOR = ITEMS.register("chespruce_door", 
+			() -> new BlockItem(BlockInit.CHESPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> WARSPRUCE_DOOR = ITEMS.register("warspruce_door", 
+			() -> new BlockItem(BlockInit.WARSPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> CRISPRUCE_DOOR = ITEMS.register("crispruce_door", 
+			() -> new BlockItem(BlockInit.CRISPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> MANSPRUCE_DOOR = ITEMS.register("manspruce_door", 
+			() -> new BlockItem(BlockInit.MANSPRUCE_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> OAKSPRUCE_DOOR = ITEMS.register("oakspruce_door", 
+			() -> new BlockItem(BlockInit.OAKSPRUCE_DOOR.get(), new Item.Properties())); 
+	
 	
 	public static Collection<RegistryObject<Item>> orderedItems() {
 		return ITEMS.getEntries();

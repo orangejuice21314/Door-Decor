@@ -4,9 +4,9 @@ loaderVersion="[47,)" #mandatory This is typically bumped every Minecraft versio
 license="All Rights Reserved"
 [[mods]] #mandatory
 modId="oj_doors" #mandatory
-version="0.1" #mandatory
+version="1.0" #mandatory
 displayName="Door Decor" #mandatory
-#logoFile="examplemod.png" #optional
+#logoFile="ojdoorsicon.png" #optional
 #credits="forge" #optional
 authors="orangejuice21314" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -18,7 +18,7 @@ authors="orangejuice21314" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''${mod_description}'''
+description='''Every door you'll ever need'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.oj_doors]] #optional
     # the modid of the dependency

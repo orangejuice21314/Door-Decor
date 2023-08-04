@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-01T19:13:31.9250003	Item Models: oj_doors
+// 1.20.1	2023-08-04T13:45:02.1406836	Item Models: oj_doors
 ec31f3aa527f2acbf8ba8f0e9bd9a790a8615515 assets/oj_doors/models/item/acabirch_door.json
 5acfc005db3a7f4ff1cd8862d861ae2c1bc6fa44 assets/oj_doors/models/item/acacherry_door.json
 b74bae4e07d4d308f9badce47437dd1d3ce19a01 assets/oj_doors/models/item/acacrimson_door.json
@@ -6,6 +6,7 @@ b74bae4e07d4d308f9badce47437dd1d3ce19a01 assets/oj_doors/models/item/acacrimson_
 ef848aa3fb48615517f76cdcc28b64e491ee2335 assets/oj_doors/models/item/acajungle_door.json
 989ea74216772984b3aba50b7b3942ae1fded6c2 assets/oj_doors/models/item/acamangrove_door.json
 aa9e069b05a6c70e3292b1f28f8f55686f7b2dcd assets/oj_doors/models/item/acaoak_door.json
+470b85c53e579a401e9ab2b76f7c7b4a99afc5e8 assets/oj_doors/models/item/acaspruce_door.json
 49f1c64769a28b6b13c636fa355651a5e525e3e1 assets/oj_doors/models/item/acawarped_door.json
 607c011cebcf57f7d15f0f53c74f57aadcc41fe7 assets/oj_doors/models/item/biracacia_door.json
 33c3b3fc5f612c94a8557878f6f5eac429c9bd9f assets/oj_doors/models/item/bircherry_door.json
@@ -14,6 +15,7 @@ f18775572cb14bc3b15aa8aba595accfefc6adc5 assets/oj_doors/models/item/birdark_oak
 eafa81da298c4de0c8878947e36509dc4eecefe8 assets/oj_doors/models/item/birjungle_door.json
 d767724c0360561bbed31eb8f0d9894600ea6b15 assets/oj_doors/models/item/birmangrove_door.json
 a55d373597d885b79891f09a64b13c9f117d5988 assets/oj_doors/models/item/biroak_door.json
+9c8b0d2e66ecc527be11e94d33e8d1d6c85eca14 assets/oj_doors/models/item/birspruce_door.json
 aeacfa9f656b64e3542c2a5495e97acc7f0e9369 assets/oj_doors/models/item/birwarped_door.json
 b9dca08af4525030ce8c8b2cbeee2b497ec4b743 assets/oj_doors/models/item/cheacacia_door.json
 a389d40731390b6f5ddb8a964d4f37f8c225057d assets/oj_doors/models/item/chebirch_door.json
@@ -22,6 +24,7 @@ bd346420646ad9b1bd844bf8b2334d8a7cbc07a5 assets/oj_doors/models/item/checrimson_
 b168d6345134fd90f3e0e5ebb851d313efa15fdc assets/oj_doors/models/item/chejungle_door.json
 3e0ebc442f7737f6cb350f42162936e718f26d87 assets/oj_doors/models/item/chemangrove_door.json
 543268bd7aefd2e13fa7b242d84b1de9c866f0cc assets/oj_doors/models/item/cheoak_door.json
+c18fe42c7fefde038cab2b5608352af85e852c41 assets/oj_doors/models/item/chespruce_door.json
 15d744da7647148464744103939cc2902e06b5b7 assets/oj_doors/models/item/chewarped_door.json
 2fc0465dc094f05c39e0e067de6c2c55b4a2b0cd assets/oj_doors/models/item/criacacia_door.json
 6c3d904305eb467764836b3f947ad1b71446f248 assets/oj_doors/models/item/cribirch_door.json
@@ -30,6 +33,7 @@ b47cf83bac4885e1db56a5fb3833faee9e7eef31 assets/oj_doors/models/item/cridark_oak
 50032b8176e0d349b2d7d0e779c5716ff1fbd3c1 assets/oj_doors/models/item/crijungle_door.json
 66404f8e8d3ddf0bdb0f47c966bf458efe9dc572 assets/oj_doors/models/item/crimangrove_door.json
 978304eb7ea4d69e7193b146a4ea4632d413b055 assets/oj_doors/models/item/crioak_door.json
+ec8dfe87a4d0c1e3995795380684c799647bc368 assets/oj_doors/models/item/crispruce_door.json
 81c7d3be323056d841ae030a87ca7efe4dc6c8fc assets/oj_doors/models/item/criwarped_door.json
 6251cb0285f20b83b9a964e7faaee8bf76e2b77d assets/oj_doors/models/item/daracacia_door.json
 d784fd08724b997e7ce0eac8c7d8028a13d51f4f assets/oj_doors/models/item/darbirch_door.json
@@ -38,6 +42,7 @@ d784fd08724b997e7ce0eac8c7d8028a13d51f4f assets/oj_doors/models/item/darbirch_do
 0f87b5fc26800b63669d63114d02f8c7109bcdff assets/oj_doors/models/item/darjungle_door.json
 36a3f5fa17ecc2a72b8eec6bccdf3a3d563a7eda assets/oj_doors/models/item/darmangrove_door.json
 9011ca1413e5ec8430680e2a18e00bfa6c6c88e3 assets/oj_doors/models/item/daroak_door.json
+65065fa7cbfcf8699de20b847c06d99b6a56fcbb assets/oj_doors/models/item/darspruce_door.json
 eb67d3a6bd7a487b77942f2343ac7f1f21f0d617 assets/oj_doors/models/item/darwarped_door.json
 d852ebd21a1e3c9201e50d1c8b45d17cef92e6f2 assets/oj_doors/models/item/junacacia_door.json
 6e0f3e6406f9c8b8d2a16b6e80ffdfb04bfd6b12 assets/oj_doors/models/item/junbirch_door.json
@@ -46,6 +51,7 @@ d852ebd21a1e3c9201e50d1c8b45d17cef92e6f2 assets/oj_doors/models/item/junacacia_d
 3efdc79059a5c5514ea260de3ae4046803b19fe2 assets/oj_doors/models/item/jundark_oak_door.json
 a25500d5ffcbb445a8479b0899277a8a6ae82e0f assets/oj_doors/models/item/junmangrove_door.json
 f148ef480aacd2ef9faf46f057fa04fe9143947c assets/oj_doors/models/item/junoak_door.json
+78041df98ad790b8663f67862a1dcdee983b995b assets/oj_doors/models/item/junspruce_door.json
 4bad427251bd5feec581e3626a6ce2ddcecfef71 assets/oj_doors/models/item/junwarped_door.json
 12368f32c6adaddcad96882c67b0548a7bf7a3ce assets/oj_doors/models/item/manacacia_door.json
 0dafaaeffcf8202b22800019bad37e384afac03d assets/oj_doors/models/item/manbirch_door.json
@@ -54,6 +60,7 @@ f148ef480aacd2ef9faf46f057fa04fe9143947c assets/oj_doors/models/item/junoak_door
 da143f34f72d4bb03ab9f74d83f3116b1d425a88 assets/oj_doors/models/item/mandark_oak_door.json
 b4e14eced5e39ac1d9b481a62c0e30d48e1c5824 assets/oj_doors/models/item/manjungle_door.json
 343920f9d8d018136d01ca9ca02272331ab984c5 assets/oj_doors/models/item/manoak_door.json
+a26db3381b1fcd69461c1af75ab1b5f60f7cf399 assets/oj_doors/models/item/manspruce_door.json
 ae7fc28cd1393214b7d585a7583ff61436905ae7 assets/oj_doors/models/item/manwarped_door.json
 dc0373fec94dd486ea5018c9e8215bb5c9bfb62d assets/oj_doors/models/item/oakacacia_door.json
 e22cd9a71be35561be09a17f4690673a0606b556 assets/oj_doors/models/item/oakbirch_door.json
@@ -62,6 +69,7 @@ e22cd9a71be35561be09a17f4690673a0606b556 assets/oj_doors/models/item/oakbirch_do
 607aca438cb9f32f65e7e388840b594460e21cfe assets/oj_doors/models/item/oakdark_oak_door.json
 b043736ea1d73c93a5f895189cf678c57ce9d98c assets/oj_doors/models/item/oakjungle_door.json
 33f429a8eb0479e4adb5430f0d64ca61747750eb assets/oj_doors/models/item/oakmangrove_door.json
+bf8feb954d93e33f64bec235c79526f4e1683f1b assets/oj_doors/models/item/oakspruce_door.json
 d5e459ce43adf3a08677ddda243566f6ed4262ca assets/oj_doors/models/item/oakwarped_door.json
 bbce7d9b428b3be953dba6dc29f8a2baa424b722 assets/oj_doors/models/item/spracacia_door.json
 34e61aa12595e352137235d001d8377487e29e88 assets/oj_doors/models/item/sprbirch_door.json
@@ -80,3 +88,4 @@ c69ca6085d5b35470eb2047ef6e935b2776967dd assets/oj_doors/models/item/sprwarped_d
 e839b9d04a3e65fd3ad6c065ca7f3ef7a420931d assets/oj_doors/models/item/warjungle_door.json
 4c2679dbd4bf00086b72159e3025997a8c0c13e6 assets/oj_doors/models/item/warmangrove_door.json
 464d94f6162c603f9949e5ea90278f8b6e81d1d9 assets/oj_doors/models/item/waroak_door.json
+b980706593673a924950950d6322961ef272994c assets/oj_doors/models/item/warspruce_door.json

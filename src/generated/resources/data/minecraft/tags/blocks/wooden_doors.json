@@ -80,6 +80,15 @@
     "oj_doors:chemangrove_door",
     "oj_doors:warmangrove_door",
     "oj_doors:crimangrove_door",
-    "oj_doors:sprmangrove_door"
+    "oj_doors:sprmangrove_door",
+    "oj_doors:darspruce_door",
+    "oj_doors:junspruce_door",
+    "oj_doors:birspruce_door",
+    "oj_doors:acaspruce_door",
+    "oj_doors:oakspruce_door",
+    "oj_doors:chespruce_door",
+    "oj_doors:warspruce_door",
+    "oj_doors:crispruce_door",
+    "oj_doors:manspruce_door"
   ]
 }
