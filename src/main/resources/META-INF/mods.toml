@@ -6,7 +6,8 @@ license="All Rights Reserved"
 modId="oj_doors" #mandatory
 version="1.0" #mandatory
 displayName="Door Decor" #mandatory
-#logoFile="ojdoorsicon.png" #optional
+logoFile="ojdoorsicon.png" #optional
+logoBlur=false
 #credits="forge" #optional
 authors="orangejuice21314" #optional
 # Display Test controls the display for your mod in the server connection screen
