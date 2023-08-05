@@ -1,14 +1,14 @@
 {
   "values": [
     "oj_doors:daroak_door",
-    "oj_doors:cheoak_door",
-    "oj_doors:crioak_door",
     "oj_doors:junoak_door",
+    "oj_doors:crioak_door",
+    "oj_doors:cheoak_door",
+    "oj_doors:acaoak_door",
     "oj_doors:biroak_door",
     "oj_doors:manoak_door",
     "oj_doors:waroak_door",
     "oj_doors:sproak_door",
-    "oj_doors:acaoak_door",
     "oj_doors:oakdark_oak_door",
     "oj_doors:acadark_oak_door",
     "oj_doors:birdark_oak_door",

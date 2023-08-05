@@ -25,6 +25,10 @@ public class DataGenerators {
 				event.includeClient(),
 			    new ItemGenerator(output, filehelper)
 		);
+		//gen.addProvider(
+		//		event.includeClient(),
+		//	    new LanguageGenerator(output)
+		//);
 		gen.addProvider(
 				event.includeServer(),
 			    new RecipeGenerator(output)

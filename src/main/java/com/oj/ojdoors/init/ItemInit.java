@@ -19,15 +19,18 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> DAROAK_DOOR = ITEMS.register("daroak_door", 
 			() -> new BlockItem(BlockInit.DAROAK_DOOR.get(), new Item.Properties())); 
 	
-	public static final RegistryObject<BlockItem> CHEOAK_DOOR = ITEMS.register("cheoak_door", 
-			() -> new BlockItem(BlockInit.CHEOAK_DOOR.get(), new Item.Properties())); 
+	public static final RegistryObject<BlockItem> JUNOAK_DOOR = ITEMS.register("junoak_door", 
+			() -> new BlockItem(BlockInit.JUNOAK_DOOR.get(), new Item.Properties()));  
 	
 	public static final RegistryObject<BlockItem> CRIOAK_DOOR = ITEMS.register("crioak_door", 
 			() -> new BlockItem(BlockInit.CRIOAK_DOOR.get(), new Item.Properties())); 
 	
-	public static final RegistryObject<BlockItem> JUNOAK_DOOR = ITEMS.register("junoak_door", 
-			() -> new BlockItem(BlockInit.JUNOAK_DOOR.get(), new Item.Properties()));  
-
+	public static final RegistryObject<BlockItem> CHEOAK_DOOR = ITEMS.register("cheoak_door", 
+			() -> new BlockItem(BlockInit.CHEOAK_DOOR.get(), new Item.Properties())); 
+	
+	public static final RegistryObject<BlockItem> ACAOAK_DOOR = ITEMS.register("acaoak_door", 
+			() -> new BlockItem(BlockInit.ACAOAK_DOOR.get(), new Item.Properties())); 
+	
 	public static final RegistryObject<BlockItem> BIROAK_DOOR = ITEMS.register("biroak_door", 
 			() -> new BlockItem(BlockInit.BIROAK_DOOR.get(), new Item.Properties())); 
 	
@@ -36,12 +39,10 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> WAROAK_DOOR = ITEMS.register("waroak_door", 
 			() -> new BlockItem(BlockInit.WAROAK_DOOR.get(), new Item.Properties())); 
-	
+
 	public static final RegistryObject<BlockItem> SPROAK_DOOR = ITEMS.register("sproak_door", 
 			() -> new BlockItem(BlockInit.SPROAK_DOOR.get(), new Item.Properties()));  
 	
-	public static final RegistryObject<BlockItem> ACAOAK_DOOR = ITEMS.register("acaoak_door", 
-			() -> new BlockItem(BlockInit.ACAOAK_DOOR.get(), new Item.Properties()));  
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////
 	public static final RegistryObject<BlockItem> OAKDARK_OAK_DOOR = ITEMS.register("oakdark_oak_door", 

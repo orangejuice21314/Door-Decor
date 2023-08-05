@@ -20,6 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.client.resources.language.I18n;
 
 import java.util.Collection;
 
@@ -97,6 +98,7 @@ public class oj_doors
     		blocks.stream()
 				.map(RegistryObject::get)
 				.forEach(e -> ItemBlockRenderTypes.setRenderLayer(e, RenderType.cutout()));
+    		I18n.get("test", BlockInit.ACADARK_OAK_DOOR);
         }
     }
     
