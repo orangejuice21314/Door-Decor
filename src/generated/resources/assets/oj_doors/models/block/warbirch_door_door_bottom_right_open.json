@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_right_open",
-  "textures": {
-    "bottom": "oj_doors:block/warbirch_door_bottom",
-    "top": "oj_doors:block/warbirch_door_top"
-  }
-}

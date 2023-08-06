@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left",
-  "textures": {
-    "bottom": "oj_doors:block/cricherry_door_bottom",
-    "top": "oj_doors:block/cricherry_door_top"
-  }
-}
