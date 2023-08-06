@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "oj_doors:customized_wooden_doors",
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_planks"
+    },
+    {
+      "item": "minecraft:cherry_door"
+    }
+  ],
+  "result": {
+    "item": "oj_doors:mancherry_door"
+  }
+}
